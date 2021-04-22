@@ -1,0 +1,13 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Topmost="False" WindowStyle="None">
+    <Grid x:Name="MyApp" Background="White">
+        <Label x:Name="TimeShower" Content="00:00:00" FontSize="72" Margin="0,0,50,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" Background="{x:Null}" Foreground="White" AutomationProperties.IsOffscreenBehavior="Onscreen" RenderTransformOrigin="0.5,0.5" Opacity="0.5" FontFamily="Nunito">
+        </Label>
+    </Grid>
+</Window>
